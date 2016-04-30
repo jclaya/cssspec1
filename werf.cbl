@@ -17,8 +17,13 @@
                 All "ZZZZ" by Last-four.
     Display Formatted-Number.
     Inspect Formatted-Alternate
-        Replacing First "XXX" by Area-code
+        Replacing FIRST "XXX" by Area-code
                 First "XXX" by Prefix-num
                 First "XXXX" by Last-four.
     Display Formatted-Alternate.
+
+    Inspect FORMATTED-ALTERNATE 
+        Replacing FIRST "-" by "*".
+
+    DISPLAY FORMATTED-ALTERNATE.
     Stop Run.

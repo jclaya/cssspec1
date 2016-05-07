@@ -18,10 +18,10 @@
   accept xnum1 line 7 col 19.
   
   if xnum1 > xnum2 and xnum1 > xnum3
-   display xnum2 line 9 col 10
+   display xnum2 line 9 col 10.
    
   if xnum2 > xnum1 and xnum2 > xnum3
-   display xnum2 line 9 col 10
+   display xnum2 line 9 col 10.
    
   if xnum3 > xnum1 and xnum3 > xnum2
    display xnum3 line 9 col 10.

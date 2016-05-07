@@ -18,12 +18,19 @@
   accept xnum1 line 7 col 19.
   
   if xnum1 > xnum2 and xnum1 > xnum3
-   display xnum2 line 9 col 5
+   display xnum2 line 9 col 10
    
-  else if xnum2 > xnum1 and xnum2 > xnum3
-   display xnum2 line 9 col 5
+  if xnum2 > xnum1 and xnum2 > xnum3
+   display xnum2 line 9 col 10
    
-  else if xnum3 > xnum1 and xnum3 > xnum2
-   display xnum3 line 9 col 5.
-  
+  if xnum3 > xnum1 and xnum3 > xnum2
+   display xnum3 line 9 col 10.
+   
+*CHECK FOR CLASS
+ IF XNUM1 IS NUMERIC
+  DISPLAY "XNUM1 IS NUMERIC" LINE 10 COL 5.
+
+*CHECK FOR CONDITION
+ IF XNUM3 > 499 AND <1000
+  DISPLAY "XNUM3 BETWEEN 499 AND 1000" LINE 11 COL 5.  
  stop run.
